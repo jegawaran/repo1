@@ -1,10 +1,4 @@
 /*
-*   Author: beshleyua
-*   Author URL: http://themeforest.net/user/beshleyua
-*/
-
-
-/*
 	Preloader
 */
 
@@ -342,11 +336,12 @@ $(function () {
 	
 	/*
 		Google Maps
-	*/
+
 	
 	if($('#map').length) {
 		google.maps.event.addDomListener(window, 'load', initMap);
 	}
+	*/
 
 });
 
@@ -354,7 +349,7 @@ $(function () {
 /*
 	Google Map Options
 */
-
+/*
 function initMap() {
 	var myLatlng = new google.maps.LatLng(40.773328,-73.960088); // <- Your latitude and longitude
 	var styles = [
@@ -390,4 +385,4 @@ function initMap() {
 		map: map,
 		title: 'We are here!'
 	});
-}
+} */
